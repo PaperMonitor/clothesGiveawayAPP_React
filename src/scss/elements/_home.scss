@@ -1,0 +1,51 @@
+.mobile-nav {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 20vh;
+    img {
+        width: 25%;
+    }
+    div {
+        height: 40px;
+        width: 40px;
+        background-color: blue;
+    }
+}
+
+header {
+    width: 90%;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $heading-color;
+    h1 {
+        margin-bottom: 10px;
+        font-size: 1.7em;
+        font-weight: 400;
+        text-align: center;
+    }
+    img {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+    .header-buttons {
+        display: flex;
+        button {
+            margin-right: 5px;
+            margin-left: 5px;
+            border-style: none;
+            background-color: white;
+            border: 1px solid $border-color;
+            padding: 10px 30px;
+            text-transform: uppercase;
+            line-height: 1.5em;
+            color: $button-text;
+        }
+    }
+}

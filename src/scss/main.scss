@@ -1,7 +1,13 @@
 @import '../scss/settings/reset';
 @import '../scss/settings/fonts';
 @import '../scss/settings/colors';
+@import './settings/all';
+@import './elements/home';
 
 body {
     font-family: $font-base;
+}
+
+button {
+    cursor: pointer;
 }
