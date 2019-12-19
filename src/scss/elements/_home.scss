@@ -202,11 +202,34 @@ header {
     padding-top: 15%;
     padding-bottom: 15%;
     text-align: center;
-    h3 {}
-    img {}
+    h3 {
+        font-size: 1.5em;
+        font-weight: 500;
+        margin-bottom: 5%;  
+    }
+    img {
+        width: 60%;
+        margin-bottom: 5%;
+    }
     .helpButtons {
         display: flex;
         flex-direction: column;
+        margin-bottom: 5%;
+        button {
+            width: 60%;
+            padding: 10px 30px;
+            margin: 0 auto;
+            border-style: none;
+            border: 1px solid $border-color;
+            background-color: white;
+            line-height: 1.5em;
+            text-transform: uppercase;
+            color: $button-text;
+        }
+    }
+    .helpDescription {
+        width: 90%;
+        margin: 5% auto;
     }
 }
 
@@ -217,7 +240,8 @@ header {
     h3 {
         font-size: 1.5em;
         font-weight: 500;
-        margin-bottom: 5%;    }
+        margin-bottom: 5%;  
+      }
     img {
         width: 60%;
         margin-bottom: 5%;
