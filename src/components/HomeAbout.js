@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Decoration from '../assets/Decoration.svg'
 import Signature from '../assets/Signature.svg'
 
-
 export default class HomeAbout extends Component {
     render() {
         return (

@@ -5,7 +5,6 @@ import secondIcon from '../assets/Icon-2.svg'
 import thirdIcon from '../assets/Icon-3.svg'
 import fourthIcon from '../assets/Icon-4.svg'
 
-
 export default class Home4Steps extends Component {
     render() {
         return (

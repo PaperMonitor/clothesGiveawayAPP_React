@@ -7,7 +7,6 @@ import HomeHelp from './HomeHelp';
 import HomeStats from './HomeStats';
 import Menu from './Menu';
 
-
 export default class Home extends Component {
     render() {
         return (
