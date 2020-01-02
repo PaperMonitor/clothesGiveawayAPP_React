@@ -4,9 +4,9 @@ import Decoration from '../assets/Decoration.svg';
 export default class HomeContact extends Component {
     render() {
         return (
-            <section className="homeContact">
-                <h3>Skontaktuj się z nami</h3>
-                <img src={Decoration} alt="dekoracja"></img>
+            <section className="contact">
+                <h3 className="contact__title">Skontaktuj się z nami</h3>
+                <img src={Decoration} className="contact__img" alt="dekoracja"></img>
                 <div className="form-name">
                     <label htmlFor="name">Wpisz swoje imię</label>
                     <input type="text" className="form-control" placeholder="Krzysztof" />
