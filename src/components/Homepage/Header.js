@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Decoration from '../../assets/Decoration.svg'
 
-export default class HomeHeader extends Component {
+export default class Header extends Component {
     render() {
         return (
             <header className="start">

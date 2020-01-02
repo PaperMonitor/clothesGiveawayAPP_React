@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Decoration from '../../assets/Decoration.svg'
 
-export default class HomeHelp extends Component {
+export default class Help extends Component {
     render() {
         return (
             <section className="help">

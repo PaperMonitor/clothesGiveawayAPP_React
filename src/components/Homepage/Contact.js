@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Decoration from '../../assets/Decoration.svg';
 
-export default class HomeContact extends Component {
+export default class Contact extends Component {
     render() {
         return (
             <section className="contact">
