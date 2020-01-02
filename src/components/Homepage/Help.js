@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Decoration from '../assets/Decoration.svg'
+import Decoration from '../../assets/Decoration.svg'
 
 export default class HomeHelp extends Component {
     render() {

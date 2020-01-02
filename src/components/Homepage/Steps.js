@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Decoration from '../assets/Decoration.svg'
-import firstIcon from '../assets/Icon-1.svg'
-import secondIcon from '../assets/Icon-2.svg'
-import thirdIcon from '../assets/Icon-3.svg'
-import fourthIcon from '../assets/Icon-4.svg'
+import Decoration from '../../assets/Decoration.svg'
+import firstIcon from '../../assets/Icon-1.svg'
+import secondIcon from '../../assets/Icon-2.svg'
+import thirdIcon from '../../assets/Icon-3.svg'
+import fourthIcon from '../../assets/Icon-4.svg'
 
 export default class Home4Steps extends Component {
     render() {
