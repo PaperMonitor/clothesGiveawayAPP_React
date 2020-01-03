@@ -17,8 +17,10 @@ export default class Steps extends Component {
     render() {
         return (
             <section className="steps">
+                <div className="steps__container">
                 <h3 className="steps__title">Wystarczą 4 proste kroki</h3>
                 <img src={Decoration} className="steps__img" alt="dekoracja"></img>
+                </div>
                 <div className="steps__DIY">
                     <div className="steps__DIY__one">
                         <img src={firstIcon} alt="t-shirt"></img>
