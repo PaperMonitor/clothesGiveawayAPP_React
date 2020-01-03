@@ -4,6 +4,7 @@ import firstIcon from '../../assets/Icon-1.svg'
 import secondIcon from '../../assets/Icon-2.svg'
 import thirdIcon from '../../assets/Icon-3.svg'
 import fourthIcon from '../../assets/Icon-4.svg'
+import Login from '../Login/Login'
 import {
     HashRouter,
     Route,
@@ -44,8 +45,7 @@ export default class Steps extends Component {
                         <p>kurier przyjedzie w dogodnym terminie</p>
                     </div>
                 </div>
-                <Link to="/logowanie"><button className="steps__btn">oddaj rzeczy</button></Link>
-                
+                <button className="steps__btn"><Link to="/logowanie">oddaj rzeczy</Link></button>
             </section>
         )
     }

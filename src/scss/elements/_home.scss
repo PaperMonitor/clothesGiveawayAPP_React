@@ -7,11 +7,20 @@
     height: 20vh;
     .mobile__img {
         width: 25%;
+        @media (min-width: 800px) {
+           width: 20%;
+        }
+        @include respond-to('medium'){
+            width: 15%;
+        }
     }
     .mobile__hamburger {
         height: 40px;
         width: 40px;
         background-color: blue;
+        @include respond-to('medium'){
+            display: none;
+        }
     }
 }
 
@@ -29,12 +38,18 @@
         font-size: 1.7em;
         font-weight: 400;
         text-align: center;
+        @include respond-to('medium'){
+        font-size: 2.5em;
+        }
     }
     &__subtitle {
         margin-bottom: 10px;
         font-size: 1.7em;
         font-weight: 400;
         text-align: center;
+        @include respond-to('medium'){
+            font-size: 2.2em;
+            }
     }
     &__img {
         margin-top: 10px;
@@ -52,6 +67,9 @@
             text-transform: uppercase;
             line-height: 1.5em;
             color: $button-text;
+            @include respond-to('medium'){
+                font-size: 1.2em;
+            }
         }
     }
 }
@@ -65,8 +83,15 @@
     text-align: center;
     background-color: $accent-color;
     color: $heading-color;
+    @include respond-to('medium'){
+        flex-direction: row;
+        align-items: center;
+    }
     &__first__counter {
         margin-bottom: 10%;
+            @include respond-to('medium'){
+                margin-bottom: 0px;
+                }
         h3 {
             font-size: 40px;
             font-weight: 400;
@@ -85,6 +110,9 @@
     }
     &__second__counter {
         margin-bottom: 10%;
+        @include respond-to('medium'){
+            margin-bottom: 0px;
+            }
         h3 {
             font-size: 40px;
             font-weight: 400;
@@ -130,10 +158,16 @@
         font-weight: 400;
         text-align: center;
         margin-bottom: 5%;
+        @include respond-to('medium'){
+            font-size: 2.5em;
+            }
     }
     &__img {
         width: 70%;
         margin: 0 auto;
+        @include respond-to('medium'){
+            width: 40%;
+            }
     }
     .steps__DIY {
         display: flex;
@@ -177,6 +211,10 @@
         line-height: 1.5em;
         text-transform: uppercase;
         color: $button-text;
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
     }
 }
 
